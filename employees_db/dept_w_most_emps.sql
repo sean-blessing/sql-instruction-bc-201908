@@ -1,7 +1,7 @@
 select *
   from dept_emp;
 
-select d.productdept_no, dept_name, count(*) total
+select d.dept_no, dept_name, count(*) total
   from dept_emp de
   join departments d
     on de.dept_no = d.dept_no
